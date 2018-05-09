@@ -23,7 +23,7 @@ Schedule
 ========
 
 | Day | Alden                       | Tucker               | Together                                          |
-|-----+-----------------------------+----------------------+---------------------------------------------------|
+|-----|-----------------------------|----------------------|---------------------------------------------------|
 | 1   | Pick Deployment, Stack      | Pick Scheme, Fonts   | Site Map                                          |
 | 2   | Create Master CSS page      | Wireframes           | Wireframes                                        |
 | 3   |                             | Wireframes as needed | Implement basic CSS/HTML for pages                |
