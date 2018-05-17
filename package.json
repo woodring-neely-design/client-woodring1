@@ -1,0 +1,23 @@
+{
+  "name": "client-woodring1",
+  "version": "1.0.0",
+  "description": "A website for Volney Woodring Sr.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woodring-neely-design/client-woodring1.git"
+  },
+  "author": "Alden Neely & Tucker Woodring",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woodring-neely-design/client-woodring1/issues"
+  },
+  "homepage": "https://github.com/woodring-neely-design/client-woodring1#readme",
+  "dependencies": {
+    "bulma-start": "0.0.2"
+  },
+  "devDependencies": {}
+}
