@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <nav class="navbar is-large" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item has-text-primary" href="https://bulma.io">
-          Group One Construction
-          <!--<img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">-->
+          <img src="./img/logo1.png" alt="Group One Constrution Logo"></img>
+          <span class="title has-text-primary">Group One Construction<span>
         </a>
 
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
@@ -21,13 +21,85 @@
           <span aria-hidden="true"></span>
         </a>
       </div>
+
+      <div class="navbar-menu">
+        <div class="navbar-start">
+        </div>
+
+        <div class="navbar-end">
+          <a href="#projects" class="navbar-item has-text-primary"> Projects </a>
+          <a class="navbar-item has-text-primary"> Services </a>
+          <a class="navbar-item has-text-primary"> Contact Us </a>
+        </div>
+      </div>
+
     </nav>
 
-    <!--<section id="main-header" class="hero is-primary">-->
-      <!--<div class="hero-body">-->
-        <!--<h1 class="title is-small">-->
-          <!--Group One Construction-->
-        <!--</h1>-->
-      <!--</div>-->
-    <!--</section>-->
+    <section id="homepage-content" class="hero is-fullheight">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title has-text-white has-text-centered is-size-1"> Please Enter the Motto here. </h1>
+        </div>
+      </div>
+    </section>
+
+    <section id="about-us" class="section"> 
+      <div class="tile is-ancestor">
+        <div class="tile notification is-child" style="width: 80%">
+          <h1 class="title has-text-centered">
+            About Us
+          </h1>
+          <h1 class="subtitle has-text-justify"> 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac faucibus velit, quis faucibus ante. In ligula tellus, vulputate quis varius sit amet, fermentum vel massa. Curabitur vitae porta quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus luctus bibendum quam eget feugiat. Curabitur quis nibh eu massa hendrerit accumsan nec ac metus. Nullam elementum ligula sit amet libero porta suscipit. Suspendisse viverra lacinia erat vel pellentesque. Maecenas gravida risus turpis, nec rhoncus eros tempus eget. Nullam rutrum neque non erat viverra, id tempor metus auctor. Quisque tempor massa in finibus facilisis. Curabitur semper libero ut orci ornare, quis elementum nunc facilisis. Curabitur enim quam, suscipit et finibus at, finibus ac arcu. Vivamus efficitur orci elementum, luctus sapien eu, rutrum sapien. Nam non massa euismod, dapibus eros nec, imperdiet ex.
+          </h1>  
+
+          <div class="columns has-text-centered">
+            <div class="column">
+              <strong>
+                General Contracting
+              </strong>
+              <p>GC copy Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac faucibus velit, quis faucibus ante.</p> 
+            </div>
+
+            <div class="column">
+              <strong>
+                Design-Build
+              </strong>
+              <p>GC copy Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac faucibus velit, quis faucibus ante.</p> 
+            </div>
+
+            <div class="column">
+              <strong>
+                Construction Management
+              </strong>
+            <p>  GC copy Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac faucibus velit, quis faucibus ante.</p> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="hero is-medium">
+        <div class="hero-body">
+          <span class="title"> Project 1 </span>
+        </div>
+      </div>
+
+      <div class="hero is-medium" style="background-color: gray">
+        <div class="hero-body">
+          <div class="container">
+          <span class="title has-text-white"> Project 2 </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero is-medium">
+        <div class="hero-body">
+          <span class="title"> Project 3 </span>
+        </div>
+      </div>
+
+    </section>
+
   </body>
