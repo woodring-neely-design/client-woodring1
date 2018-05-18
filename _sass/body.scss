@@ -1,6 +1,11 @@
 @import "./color.scss";
 @import "../node_modules/bulma/sass/utilities/mixins.sass";
 
+img {
+  margin: auto;
+  margin-bottom: 20px;
+}
+
 #homepage-content {
   margin-top:-5.5rem;
   background-image: url("../img/1600px-Dollar_General_construction_site,_Beaver_Falls.jpg");
