@@ -1,0 +1,10 @@
+@import "./color.scss";
+
+#services {
+  background-image: url("../img/construction-3331438_1920.jpg");
+
+  span.title:hover {
+    color: $primary;
+    cursor: pointer;
+  }
+}
