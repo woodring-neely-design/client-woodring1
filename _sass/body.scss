@@ -1,7 +1,8 @@
 @import "./color.scss";
+@import "../node_modules/bulma/sass/utilities/mixins.sass";
 
 #homepage-content {
-  margin-top:-3.25rem;
+  margin-top:-5.5rem;
   background-image: url("../img/1600px-Dollar_General_construction_site,_Beaver_Falls.jpg");
   background-size: cover;
 
@@ -16,16 +17,32 @@
   .tile.is-ancestor {
     position: relative;
     top: -10rem;
-    width: 70%;
-    margin: auto;
+
+    @include until(desktop) {
+      width: 100%;
+    }
+
+    @include desktop {
+      width: 80%;
+      margin: auto;
+    }
 
     .tile.is-child {
       background: white;
     }
   }
+
+  .notification {
+  }
 }
 
 .notification {
+    @include mobile {
+      .subtitle {
+        font-size: 11pt;
+      }
+    }
+
   border-radius: 0px;
   box-shadow: 3px 3px 0px rgba(black, 0.3);
 }

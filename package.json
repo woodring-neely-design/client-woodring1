@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/woodring-neely-design/client-woodring1#readme",
   "dependencies": {
+    "bcat.bgswitcher": "^2.2.1",
     "bulma-start": "0.0.2"
   },
   "devDependencies": {
