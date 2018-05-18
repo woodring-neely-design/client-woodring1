@@ -15,3 +15,12 @@
     color: $primary;
   }
 }
+
+#button {
+  background-color:gray;
+}
+
+#button:hover {
+  color: $primary;
+  background-color:white;
+}
