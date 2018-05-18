@@ -6,3 +6,21 @@
 #contacthead {
   font-size: 26px;
 }
+
+#formhead {
+  font-size: 26px;
+  padding-left: 6.7rem;
+  padding-bottom: 2rem;
+  strong {
+    color: $primary;
+  }
+}
+
+#button {
+  background-color:gray;
+}
+
+#button:hover {
+  color: $primary;
+  background-color:white;
+}
