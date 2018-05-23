@@ -1,0 +1,32 @@
+@import "./color.scss";
+$blue: rgba($primary, 0.7);
+
+.DN-root {
+  .DN-nav {
+  }
+
+  .DN-links {
+    div {
+      color: white;
+
+      &.col0 {
+        background-color: $blue;
+      }
+
+      &.col1 {
+        background-color: darken($blue, 5%);
+      }
+
+      padding: 1rem;
+      font-size: 4rem;
+
+      &.opened {
+        transition: 1s;
+        -moz-transition: 1s;
+
+        transform: translate(0px, 0px) !important;
+      }
+    }
+  }
+
+}
