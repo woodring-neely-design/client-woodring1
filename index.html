@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Group One Construction</title>
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
   </head>
 
-  <body>
-    <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+  <body id="top">
+    <nav  class="navbar is-white" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item has-text-primary">
+        <a class="navbar-item has-text-primary" href="#top">
           <img style="margin-bottom: auto" src="./img/logo1.png" alt="Group One Constrution Logo"></img>
           <span class="title has-text-primary">Group One Construction<span>
         </a>
@@ -26,11 +26,11 @@
 
       <div class="navbar-menu">
         <div class="navbar-start"></div>
-
         <div class="navbar-end">
-          <a href="#projects" class="navbar-item has-text-primary"> Projects </a>
-          <a href="#services" class="navbar-item has-text-primary"> Services </a>
-          <a href="#contact" class="navbar-item has-text-primary"> Contact Us </a>
+          <a href="#projects" class="navbar-item has-text-primary">Projects</a>
+          <a href="#services" class="navbar-item has-text-primary">Services</a>
+          <a href="#team" class="navbar-item has-text-primary">Team</a>
+          <a href="#contact" class="navbar-item has-text-primary">Contact Us</a>
         </div>
       </div>
       </div>
@@ -39,9 +39,6 @@
 
     <section id="homepage-content" class="hero is-fullheight">
       <div class="hero-body">
-        <div class="container">
-          <h1 class="title has-text-white has-text-centered is-size-1"> Please Enter the Motto here. </h1>
-        </div>
       </div>
     </section>
 
@@ -85,47 +82,25 @@
       </div>
     </section>
 
-    <section class="section" id="projects">
-      <div class="hero is-medium">
+    <section class="section" id="projects" >
+      <a class="hero is-medium" id="open-gallery">
         <div class="hero-body">
-          <span class="title"> Project 1 </span>
+          <span class="title"> View Our Work</span>
         </div>
-      </div>
-
-      <div class="hero is-medium" style="background-color: gray">
-        <div class="hero-body">
-            <span class="title has-text-white"> Project 2 </span>
-        </div>
-      </div>
-
-      <div class="hero is-medium">
-        <div class="hero-body">
-          <span class="title"> Project 3 </span>
-        </div>
-      </div>
+      </a>
     </section>
 
 
-    <section id="services" class="section">
-      <div class="tile is-ancestor is-vertical">
-
-        <div class="tile is-parent">
-          <div class="tile is-child is-4"></div>
-
-          <div class="tile notification is-child is-4">
-            <h1 class="title has-text-centered">
+    <section id="services">
+      <div class="columns">
+        <div class="column is-5 is-child" style="padding-right: 0; border-right: 12px solid #363636;">
+          <div style="padding: 1rem;">
+            <h1 class="title is-1 has-text-centered">
               Services
             </h1>
-          </div>
-
-          <div class="tile is-4"></div>
-        </div>
-
-        <div class="tile is-parent is-horizontal">
-          <div class="tile notification is-child">
 
             <article>
-              <span class="title">General Contracting</span>
+              <span class="title has-text-primary">General Contracting</span>
               <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac faucibus velit, quis faucibus ante. In ligula tellus, vulputate quis varius sit amet, fermentum vel massa. Curabitur vitae porta quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus luctus bibendum quam eget feugiat. Curabitur quis nibh eu massa hendrerit accumsan nec ac metus. Nullam elementum ligula sit amet libero porta suscipit. Suspendisse viverra lacinia erat vel pellentesque. Maecenas gravida risus turpis, nec rhoncus eros tempus eget. Nullam rutrum neque non erat viverra, id tempor metus auctor. Quisque tempor massa in finibus facilisis. Curabitur semper libero ut orci ornare, quis elementum nunc facilisis. Curabitur enim quam, suscipit et finibus at, finibus ac arcu. Vivamus efficitur orci elementum, luctus sapien eu, rutrum sapien. Nam non massa euismod, dapibus eros nec, imperdiet ex.
               </p>
@@ -143,90 +118,108 @@
               </p>
             </article>
           </div>
-
-          <div class="tile is-child">
-          </div>
         </div>
+
+        <div id="services-img" class="column"></div>
+      </div>
 
       </div>
     </section>
+
+    <section id="team">
+      <div class="hero is-dark" style="padding: 50px"> 
+        <div class="hero-body" style="margin-bottom: -100px">
+
+          <img class="image is-5by3" src="./img/cometodaddy.120417.jpg" ></img>
+          <div class="notification has-text-dark" style="width: 80%; margin: auto; transform: translate(0px, -100px);">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac faucibus velit, quis faucibus ante. In ligula tellus, vulputate quis varius sit amet, fermentum vel massa. Curabitur vitae porta quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus luctus bibendum quam eget feugiat. Curabitur quis nibh eu massa hendrerit accumsan nec ac metus. Nullam elementum ligula sit amet libero porta suscipit. Suspendisse viverra lacinia erat vel pellentesque. Maecenas gravida risus turpis, nec rhoncus eros tempus eget. Nullam rutrum neque non erat viverra, id tempor metus auctor. Quisque tempor massa in finibus facilisis. Curabitur semper libero ut orci ornare, quis elementum nunc facilisis. Curabitur enim quam, suscipit et finibus at, finibus ac arcu. Vivamus efficitur orci elementum, luctus sapien eu, rutrum sapien. Nam non massa euismod, dapibus eros nec, imperdiet ex.
+
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </section>
+
     <section class="section" id="contact">
       <p id="formhead"> <strong> Reach out to us: </strong> </p>
       <div class="tile is-ancestor is-vertical">
         <div class="tile is-parent">
           <div class="tile is-1"></div>
 
-          <div class="tile is-6 is-child notification is-primary">
-            <div class="field is-horizontal">
-              <div class="field-label is-normal">
-                <label class="label has-text-white">From</label>
-              </div>
-              <div class="field-body">
-                <div class="field">
-                  <p class="control is-expanded has-icons-left">
-                  <input class="input" type="text" placeholder="Name">
-                  <span class="icon is-small is-left">
-                    <i class="fas fa-user"></i>
-                  </span>
-                  </p>
+          <div class="tile is-6 is-child notification is-primary" >
+            <form action="mailto:alden.s.neely@gmail.com" method="get" enctype="text/plain">
+              <div class="field is-horizontal" style="display: none;">
+                <div class="field-label is-normal">
+                  <label class="label has-text-white">From</label>
                 </div>
-                <div class="field">
-                  <p class="control is-expanded has-icons-left has-icons-right">
-                  <input class="input" type="email" placeholder="Email">
-                  <span class="icon is-small is-left">
-                    <i class="fas fa-envelope"></i>
-                  </span>
-                  <span class="icon is-small is-right">
-                    <i class="fas fa-check"></i>
-                  </span>
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="field is-horizontal">
-              <div class="field-label is-normal">
-                <label class="label has-text-white">Subject</label>
-              </div>
-              <div class="field-body">
-                <div class="field">
-                  <div class="control">
-                    <input class="input" type="text" placeholder="e.g. Partnership opportunity">
+                <div class="field-body">
+                  <div class="field">
+                    <p class="control is-expanded has-icons-left">
+                    <input class="input" type="text" placeholder="Name">
+                    <span class="icon is-small is-left">
+                      <i class="fas fa-user"></i>
+                    </span>
+                    </p>
                   </div>
-                  <p class="help is-danger">
-                  This field is required
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="field is-horizontal">
-              <div class="field-label is-normal">
-                <label class="label has-text-white">Question</label>
-              </div>
-              <div class="field-body">
-                <div class="field">
-                  <div class="control">
-                    <textarea class="textarea" placeholder="Explain how we can help you"></textarea>
+                  <div class="field">
+                    <p class="control is-expanded has-icons-left has-icons-right">
+                    <input class="input" type="email" placeholder="Email">
+                    <span class="icon is-small is-left">
+                      <i class="fas fa-envelope"></i>
+                    </span>
+                    <span class="icon is-small is-right">
+                      <i class="fas fa-check"></i>
+                    </span>
+                    </p>
                   </div>
                 </div>
               </div>
-            </div>
 
-            <div class="field is-horizontal">
-              <div class="field-label">
-                <!-- Left empty for spacing -->
-              </div>
-              <div class="field-body">
-                <div class="field">
-                  <div class="control">
-                    <button class="button is-primary" id="button">
-                      Send message
-                    </button>
+              <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                  <label class="label has-text-white">Subject</label>
+                </div>
+                <div class="field-body">
+                  <div class="field">
+                    <div class="control">
+                      <input class="input" type="text" name="subject" placeholder="e.g. Partnership opportunity">
+                    </div>
+                    <p class="help is-danger">
+                    This field is required
+                    </p>
                   </div>
                 </div>
               </div>
-            </div>
+
+              <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                  <label class="label has-text-white">Question</label>
+                </div>
+                <div class="field-body">
+                  <div class="field">
+                    <div class="control">
+                      <textarea class="textarea" name="body" placeholder="Explain how we can help you"></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="field is-horizontal">
+                <div class="field-label">
+                  <!-- Left empty for spacing -->
+                </div>
+                <div class="field-body">
+                  <div class="field">
+                    <div class="control">
+                      <button class="button is-primary" id="button">
+                        Send message
+                      </button>
+                    </div>
+                  </div>
+                </div>
+            </form>
+              </div>
 
           </div>
           <div class="tile is-7"></div>
@@ -235,15 +228,16 @@
         <div class="tile is-parent" style="margin-top: 4.0rem;">
           <div class="tile is-7"></div>
 
-          <div class="tile is-4 is-child notification is-primary" style="background-color:gray;">
+          <div class="tile is-4 is-child notification is-dark">
             <p id="contacthead"> <strong> Group One | Nashville </strong> </p> <br>
 
             <p>
             1209 Pine Street, Suite 301 <br>
             Nashville, TN 37203 <br>
-            Phone: 615.577.4002 |
+            Phone: 615.577.4002 <br>
             Fax: 615.577.4003 <br>
-            Tucker Woodring, placeholder <br>
+            <br>
+            <strong>Tucker Woodring, CEO</strong><br>
             615.300.1040 <br>
             </p>
 
@@ -252,10 +246,69 @@
         </div>
       </div>
     </section>
-    <section class="section" id="location">
+    <section id="location">
+      <div class="hero is-small is-primary">
+        <div class="hero-body">
+          <div class="container" style="display: flex;">
+            <a href="#top" class="image is-32x32" style="margin-right: 1.5rem">
+              <img src="./img/logo1-white.png">
+            </a>
+            <span style="padding-top: 0.2rem;">
+              © 2018 All Rights Reserved
+            </span>
+          </div>
+        </div>
+      </div>
 
     </section>
 
+    <div class="modal">
+      <div class="modal-background"></div>
+      <div class="modal-content">
+        <!-- Any other Bulma elements you want -->
+
+        <style>
+.modal img {
+  width: 150px;
+  height: 150px;
+}
+
+.modal .container {
+  text-align: center;
+  margin-top: 10vh;
+  width: 100%;
+}
+        </style>
+
+        <!-- 1. Add latest jQuery and fancyBox files -->
+
+        <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+
+
+        <!-- 2. Create links -->
+
+        <div class="container is-fullheight">
+          <div>
+            <a data-fancybox="gallery" href="./photos/Antioch.JPG"><img src="./photos/Antioch.JPG"></a>
+            <a data-fancybox="gallery" href="./photos/Ardmore.jpg"><img src="./photos/Ardmore.jpg"></a>
+            <a data-fancybox="gallery" href="./photos/Columbia.JPG"><img src="./photos/Columbia.JPG"></a>
+            <a data-fancybox="gallery" href="./photos/Lebanon.jpg"><img src="./photos/Lebanon.jpg"></a>
+            <a data-fancybox="gallery" href="./photos/Lewiburg.jpg"><img src="./photos/Lewiburg.jpg"></a>
+            <a data-fancybox="gallery" href="./photos/Lynchburg.jpg"><img src="./photos/Lynchburg.jpg"></a>
+            <a data-fancybox="gallery" href="./photos/Murfreesboro,.JPG"><img src="./photos/Murfreesboro,.JPG"></a>
+            <a data-fancybox="gallery" href="./photos/Murfreesboro.JPG"><img src="./photos/Murfreesboro.JPG"></a>
+            <a data-fancybox="gallery" href="./photos/Nashville,.JPG"><img src="./photos/Nashville,.JPG"></a>
+            <a data-fancybox="gallery" href="./photos/Nashville.JPG"><img src="./photos/Nashville.JPG"></a>
+            <a data-fancybox="gallery" href="./photos/Smyrna.jpg"><img src="./photos/Smyrna.jpg"></a>
+            <a data-fancybox="gallery" href="./photos/Springfiled.JPG"><img src="./photos/Springfiled.JPG"></a>
+          </div>
+        </div>
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="./lib/jquery.bswitcher.js"></script>

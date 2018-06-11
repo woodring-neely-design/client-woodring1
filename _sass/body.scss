@@ -7,8 +7,8 @@ img {
 }
 
 #homepage-content {
-  margin-top:-5.5rem;
-  background-image: url("../img/1600px-Dollar_General_construction_site,_Beaver_Falls.jpg");
+ // margin-top:-5.5rem;
+  background-image: url("../photos/Lebanon.jpg");
   background-size: cover;
 
   .hero-body {
@@ -49,9 +49,13 @@ img {
     }
 
   border-radius: 0px;
-  box-shadow: 3px 3px 0px rgba(black, 0.3);
+  //box-shadow: 3px 3px 0px rgba(black, 0.3);
 }
 
 #projects {
+  padding: 0px;
+}
+
+#services {
   padding: 0px;
 }

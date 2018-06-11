@@ -1,11 +1,26 @@
 @import "./color.scss";
 
 #services {
-  background-image: url("../img/construction-3331438_1920.jpg");
-  background-size: cover;
-
   span.title:hover {
     color: $primary;
     cursor: pointer;
   }
 }
+ #projects {
+   border-bottom: 12px solid #363636;
+   a {
+     background-image: url(../photos/cropped.jpg);
+     background-size: cover;
+     background-position: top;
+
+     color: white;
+
+     span {
+       color: white;
+       background-color: $primary;
+       padding: 1rem;
+        
+       font-size: 14pt;
+     }
+   }
+ }

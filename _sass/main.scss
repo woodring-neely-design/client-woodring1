@@ -22,3 +22,11 @@
 @import "./services.scss";
 @import "./contact.scss";
 @import "./dropout-nav.scss";
+
+.title {
+  font-family: "Roboto", sans-serif;
+}
+
+#contact {
+  background-image: url(../img/grid-lite.png);
+}
