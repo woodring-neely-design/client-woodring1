@@ -1,6 +1,12 @@
 const primary = '0, 65, 111';
 let skip1 = false;
 
+window.addEventListener('resize', () => {
+  $("#services .column.is-5").css({height: ''});
+  let height = $("#services .column.is-5").height() + 20;
+  $("#services .column.is-5").css({height});
+});
+
 document.addEventListener('DOMContentLoaded', () => {
   addServicesExpansion();
   addNavbarScroll();
@@ -8,8 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
   doScroll();
 
   $("#services-img").bgswitcher({
-    images: ['./photos/Lynchburg.JPG', './photos/Columbia.JPG', 
-      './photos/Ardmore.jpg'],
+    images: ['./img/crop/Lynchburg.JPG', './img/crop/Columbia.JPG', 
+      './img/crop/Ardmore.jpg'],
     loop: false,
     start: false
   });
@@ -21,13 +27,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 let addServicesExpansion = () => {
-  $('#services span.title').click(function (){
-    $('#services p').hide(); 
+  let height = $("#services .column.is-5").height() + 20;
+  $("#services .column.is-5").css({height});
 
+  $('#services span.title').click(function (){
     $('#services span.title').removeClass("has-text-primary");
     $(this).addClass("has-text-primary");
 
-    $(this).siblings('p').show();
+    $('#services p').slideUp(); 
+    $(this).siblings('p').slideDown();
+
     const idx = $('#services span.title').index($(this));
     $('#services-img').bgswitcher('select', idx);
   });
@@ -48,7 +57,6 @@ let scrollTo = (selector) => {
 
 function doScroll() {
   const dist = window.scrollY / 300.0;
-  console.log(dist);
 
   /*
   const backgroundColor = `rgba(255, 255, 255, ${dist})`;
@@ -81,6 +89,5 @@ function toWhite(rgb, amt) {
 
 function tween(start, end, amt) {
   const hard = (amt > 1.0)?1.0:amt;
-  console.log(hard);
   return start + (end - start) * hard;
 }
